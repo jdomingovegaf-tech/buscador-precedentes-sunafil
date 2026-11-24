@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Precedentes de observancia obligatoria · SUNAFIL-TFL</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Marca personal (mi-marca/marca.md): lienzo blanco, tinta #212120, acento navy #243C54, dorado #B48444 */
+  :root {
+    --lienzo: #FFFFFF;
+    --tinta: #212120;
+    --tinta-suave: #4F4F4A;
+    --acento: #243C54;
+    --dorado: #B48444;
+    --linea: #E3DFD6;
+    --acento-suave: #EEF2F6;
+    --resalte: rgba(180, 132, 68, .28);
+    --titulo: "EB Garamond", Garamond, "Times New Roman", serif;
+    --texto: Arial, Helvetica, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--lienzo); color: var(--tinta);
+    font: 16px/1.55 var(--texto);
+  }
+  header { max-width: 960px; margin: 0 auto; padding: 30px 16px 0; }
+  h1 { font: 700 2.1rem/1.15 var(--titulo); margin: 0 0 6px; color: var(--tinta); }
+  h1 .acento { color: var(--acento); }
+  h2, h3 { font-family: var(--titulo); font-weight: 600; }
+  .sub { color: var(--tinta-suave); margin: 0; font-size: .95rem; }
+  .arco { display: block; width: 100%; height: 26px; margin-top: 14px; }
+  main { max-width: 960px; margin: 0 auto; padding: 8px 16px 40px; }
+  .tabs { display: flex; gap: 0; margin: 14px 0 18px; border-bottom: 1px solid var(--linea); flex-wrap: wrap; }
+  .tab {
+    background: none; border: none; border-bottom: 2px solid transparent; color: var(--tinta-suave);
+    padding: 10px 16px; cursor: pointer; font: 600 1rem var(--texto); margin-bottom: -1px;
+  }
+  .tab[aria-selected="true"] { color: var(--acento); border-bottom-color: var(--dorado); }
+  .tab:focus-visible, button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
+    outline: 2px solid var(--acento); outline-offset: 2px;
+  }
+  .panel { display: none; }
+  .panel.active { display: block; }
+  .crumbs { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 4px 0 14px; font-size: .92rem; color: var(--tinta-suave); }
+  .crumbs button {
+    background: none; border: none; color: var(--acento); cursor: pointer; padding: 2px 4px; font: inherit; text-decoration: underline;
+  }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .node {
+    text-align: left; background: var(--lienzo); border: 1px solid var(--linea); border-top: 3px solid var(--acento);
+    border-radius: 4px; padding: 14px 16px; cursor: pointer; font: inherit; color: var(--tinta);
+    display: flex; flex-direction: column; gap: 6px; min-height: 96px;
+  }
+  .node:hover { border-color: var(--dorado); border-top-color: var(--dorado); }
+  .node:disabled { opacity: .5; cursor: default; }
+  .node strong { font: 600 1.12rem/1.25 var(--titulo); }
+  .count { color: var(--tinta-suave); font-size: .85rem; margin-top: auto; }
+  .card {
+    background: var(--lienzo); border: 1px solid var(--linea); border-radius: 4px; padding: 18px 20px; margin-bottom: 14px;
+  }
+  .card h3 { margin: 6px 0 6px; font-size: 1.3rem; line-height: 1.25; color: var(--tinta); }
+  .card p { margin: 0 0 8px; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; font-size: .84rem; color: var(--tinta-suave); align-items: center; }
+  .badge { background: var(--acento-suave); color: var(--acento); border-radius: 3px; padding: 1px 8px; font-weight: 700; }
+  .badge.warn { background: #F6EEDF; color: #6E4C1C; }
+  .origen { font-size: .88rem; color: var(--tinta-suave); margin: 0 0 6px; }
+  details { margin-top: 8px; font-size: .95rem; }
+  summary { cursor: pointer; color: var(--acento); font-weight: 700; }
+  .texto { border-top: 1px solid var(--linea); padding-top: 8px; margin-top: 10px; }
+  .texto .frag { margin: 0 0 10px; text-align: justify; line-height: 1.65; }
+  .texto .frag strong { color: var(--acento); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .chip {
+    border: 1px solid var(--linea); border-radius: 3px; padding: 2px 9px; font: .83rem var(--texto);
+    color: var(--tinta-suave); background: none; cursor: pointer;
+  }
+  .chip.hit { border-color: var(--dorado); color: var(--tinta); }
+  .acciones { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  a.pdf {
+    display: inline-block; padding: 9px 16px; border-radius: 3px; border: 1px solid var(--acento);
+    background: var(--acento); color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: .93rem;
+  }
+  a.pdf:hover { background: #1B2E41; }
+  mark { background: var(--resalte); color: inherit; border-radius: 2px; padding: 0 2px; }
+  .searchbox { display: flex; gap: 8px; flex-wrap: wrap; }
+  .searchbox input {
+    flex: 1 1 260px; font: 1rem var(--texto); padding: 11px 14px; border-radius: 3px; border: 1px solid #BDB8AC;
+    background: var(--lienzo); color: var(--tinta);
+  }
+  .searchbox select, .searchbox button {
+    font: 600 1rem var(--texto); padding: 10px 16px; border-radius: 3px; border: 1px solid var(--acento);
+    background: var(--lienzo); color: var(--acento); cursor: pointer;
+  }
+  .searchbox button { background: var(--acento); color: #FFFFFF; }
+  .searchbox button:hover { background: #1B2E41; }
+  .examples { margin: 10px 0 16px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; color: var(--tinta-suave); font-size: .9rem; }
+  .summary-line { margin: 6px 0 12px; color: var(--tinta-suave); }
+  .empty { background: #F6EEDF; color: #4A3414; border-radius: 3px; padding: 16px 18px; border-left: 3px solid var(--dorado); }
+  .empty p { margin: 4px 0; }
+  .aside {
+    margin-top: 30px; border-top: 1px solid var(--linea); padding-top: 16px; font-size: .93rem; color: var(--tinta-suave);
+  }
+  .aside h2 { font-size: 1.15rem; color: var(--tinta); margin: 0 0 6px; }
+  .aside ul { margin: 6px 0 0; padding-left: 18px; }
+  .aside li { margin-bottom: 4px; }
+  footer {
+    max-width: 960px; margin: 0 auto; padding: 18px 16px 34px; border-top: 1px solid var(--linea);
+    font-size: .9rem; color: var(--tinta-suave);
+  }
+  footer .firma { font: 600 1.1rem var(--titulo); color: var(--acento); margin: 0; }
+  footer a { color: var(--acento); }
+  @media (max-width: 520px) {
+    h1 { font-size: 1.7rem; }
+    .tab { flex: 1 1 auto; text-align: center; padding: 10px 6px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Precedentes de <span class="acento">observancia obligatoria</span></h1>
+  <p class="sub">Tribunal de Fiscalización Laboral · SUNAFIL · Resoluciones de Sala Plena 2021–2025 · <span id="total"></span></p>
+  <svg class="arco" viewBox="0 0 960 26" preserveAspectRatio="none" aria-hidden="true"><path d="M0 2 Q480 40 960 2" fill="none" stroke="#B48444" stroke-width="2.5"/></svg>
+</header>
+
+<main>
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="tab-explorar" aria-selected="true" aria-controls="panel-explorar" data-tab="explorar">Explorar por temas</button>
+    <button class="tab" role="tab" id="tab-buscar" aria-selected="false" aria-controls="panel-buscar" data-tab="buscar">Buscar por palabra o frase</button>
+  </div>
+
+  <section id="panel-explorar" class="panel active" role="tabpanel" aria-labelledby="tab-explorar">
+    <nav class="crumbs" id="crumbs" aria-label="Ruta de navegación"></nav>
+    <div id="explorar-contenido"></div>
+  </section>
+
+  <section id="panel-buscar" class="panel" role="tabpanel" aria-labelledby="tab-buscar">
+    <form class="searchbox" id="form-buscar" role="search">
+      <input id="q" type="search" placeholder="Ej.: hostilidad, vacaciones truncas, subordinación, lactancia" aria-label="Palabra o frase a buscar" autocomplete="off">
+      <select id="anio" aria-label="Filtrar por año">
+        <option value="">Todos los años</option>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+      </select>
+      <button type="submit">Buscar</button>
+    </form>
+    <div class="examples" id="ejemplos"></div>
+    <div id="resultados" aria-live="polite"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p class="firma">Juan Domingo Vega Fernández</p>
+  <p>Abogado laboralista. Recurso de consulta sobre precedentes de la SUNAFIL. <a href="https://www.linkedin.com/in/juan-domingo-vega-fernandez-b3218918" target="_blank" rel="noopener">LinkedIn</a></p>
+  <p><a href="sobre-la-base.html">Sobre la base de datos</a></p>
+  <svg class="arco" style="margin-top:6px" viewBox="0 0 960 26" preserveAspectRatio="none" aria-hidden="true"><path d="M0 2 Q480 40 960 2" fill="none" stroke="#B48444" stroke-width="2.5"/></svg>
+</footer>
+
+<script>
+const DATOS = __DATOS__;
+
+/* ---------- utilidades ---------- */
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+  .replace(/[^a-z0-9.\s-]/g, ' ').replace(/\s+/g, ' ').trim();
+const plural = (n, a, b) => n === 1 ? `${n} ${a}` : `${n} ${b}`;
+const rutaTxt = (t) => t.join(' › ');
+
+const PRECS = DATOS.precedentes.filter(p => p.tipo.startsWith('Precedente'));
+const INTERP = DATOS.precedentes.filter(p => !p.tipo.startsWith('Precedente'));
+const GENERALES = DATOS.temas_generales;
+
+/* ---------- pestañas ---------- */
+document.querySelectorAll('.tab').forEach(btn => btn.addEventListener('click', () => {
+  document.querySelectorAll('.tab').forEach(b => b.setAttribute('aria-selected', 'false'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  btn.setAttribute('aria-selected', 'true');
+  document.getElementById('panel-' + btn.dataset.tab).classList.add('active');
+}));
+
+/* ---------- texto del precedente y descarga ---------- */
+function bloqueTexto(p, terminos, abierto) {
+  if (!p.textos || !p.textos.length) {
+    return '<p class="origen">Texto no disponible en la base: consulte la resolución completa.</p>';
+  }
+  const frags = p.textos.map(b => {
+    const cuerpo = terminos && terminos.length ? resaltar(b.texto, terminos) : esc(b.texto);
+    return `<p class="frag"><strong>Fundamento ${esc(b.fundamento)}.</strong> ${cuerpo}</p>`;
+  }).join('');
+  const n = p.textos.length;
+  return `<details class="texto" ${abierto ? 'open' : ''}>
+      <summary>Texto del precedente (${n} ${n === 1 ? 'fundamento' : 'fundamentos'})</summary>
+      ${frags}
+    </details>`;
+}
+
+function botonesPdf(p) {
+  return `<div class="acciones">
+      <a class="pdf" href="${encodeURI(p.archivo)}" download="${esc(p.archivo_nombre)}">Descargar la resolución completa (PDF)</a>
+    </div>`;
+}
+
+function cabecera(p, warn) {
+  return `<div class="meta">
+      <span class="badge">${esc(p.id)}</span>
+      <span>Resolución de Sala Plena N.º ${esc(p.numero)}-SUNAFIL/TFL</span>
+      ${warn ? `<span class="badge warn">${esc(p.tipo)}</span>` : ''}
+    </div>`;
+}
+
+/* ---------- explorar por temas ---------- */
+let ruta = [];
+
+function tarjetaPrecedente(p) {
+  const claves = (p.palabras || []).map(w => `<span class="chip">${esc(w)}</span>`).join('');
+  const nota = p.nota ? `<p class="origen"><strong>Nota:</strong> ${esc(p.nota)}</p>` : '';
+  return `
+    <article class="card">
+      ${cabecera(p, false)}
+      <h3>${esc(p.titulo)}</h3>
+      <p>${esc(p.criterio)}</p>
+      ${nota}
+      ${bloqueTexto(p, [], false)}
+      <details>
+        <summary>Temas de origen y palabras clave</summary>
+        <p class="origen">${p.temas.map(t => esc(rutaTxt(t))).join('<br>')}</p>
+        <div class="chips">${claves}</div>
+      </details>
+      ${botonesPdf(p)}
+    </article>`;
+}
+
+function renderCrumbs() {
+  const partes = [`<button data-nivel="-1">Inicio</button>`];
+  ruta.forEach((r, i) => partes.push(`<span>›</span><button data-nivel="${i}">${esc(r)}</button>`));
+  $('#crumbs').innerHTML = partes.join(' ');
+  $('#crumbs').querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
+    const n = Number(b.dataset.nivel);
+    ruta = n < 0 ? [] : ruta.slice(0, n + 1);
+    renderExplorar();
+  }));
+}
+
+const enRuta = (t, prefijo) => prefijo.every((r, i) => t[i] === r);
+
+function renderExplorar() {
+  renderCrumbs();
+  const cont = $('#explorar-contenido');
+  const nivel = ruta.length;
+
+  if (nivel === 3) {
+    const items = PRECS.filter(p => p.temas.some(t => enRuta(t, ruta)));
+    cont.innerHTML = `<p class="summary-line">${plural(items.length, 'precedente', 'precedentes')} en este tema concreto.</p>` +
+      items.map(tarjetaPrecedente).join('');
+    return;
+  }
+
+  // Un precedente puede colgar de varios temas: se cuenta una vez por nodo.
+  const nodosMapa = new Map();
+  if (nivel === 0) GENERALES.forEach(g => nodosMapa.set(g, new Set()));
+  PRECS.forEach(p => p.temas.forEach(t => {
+    if (!enRuta(t, ruta)) return;
+    const k = t[nivel];
+    if (!nodosMapa.has(k)) nodosMapa.set(k, new Set());
+    nodosMapa.get(k).add(p.id);
+  }));
+
+  const nivelTxt = nivel === 0 ? 'Elige un tema general' : nivel === 1 ? 'Elige un subtema' : 'Elige un tema específico';
+  const nodos = [...nodosMapa.entries()].map(([nombre, ids]) => {
+    const n = ids.size;
+    const cuenta = n ? plural(n, 'precedente', 'precedentes') : 'Sin precedentes';
+    return `<button class="node" data-nombre="${esc(nombre)}" ${n ? '' : 'disabled'}>
+      <strong>${esc(nombre)}</strong><span class="count">${cuenta}</span></button>`;
+  }).join('');
+  cont.innerHTML = `<p class="summary-line">${nivelTxt}.</p><div class="grid">${nodos}</div>`;
+  cont.querySelectorAll('.node').forEach(b => b.addEventListener('click', () => {
+    ruta.push(b.dataset.nombre);
+    renderExplorar();
+    window.scrollTo({ top: 0 });
+  }));
+}
+
+/* ---------- búsqueda ---------- */
+const STOP = new Set(['de','la','el','en','y','a','los','las','del','que','con','por','para','un','una','al','se','o','u','e','su','sus','es','lo','como','ante','sin','sobre','desde','hasta','entre','son','ser','mi','tu']);
+const GENERIC = new Set(['trabajador','trabajadores','trabajadora','trabajadoras','empleador','empleadores','empresa','empresas','administrado','administrados','sunafil','procedimiento','sancionador','laboral','laborales','relacion','resolucion','sala','plena','tribunal','precedente','precedentes','criterio','criterios','autoridad','administrativa','administrativo','observancia','obligatoria','normas','norma','derecho','trabajo','materia','caso','casos','infraccion','infracciones']);
+
+// sinónimos y términos relacionados (normalizados: minúsculas, sin tildes)
+const SYN = {
+  'embarazada': ['gestante','embarazo','maternidad'],
+  'embarazo': ['gestante','maternidad','embarazada'],
+  'gestante': ['embarazada','embarazo','maternidad'],
+  'mujer': ['gestante','embarazada'],
+  'maternidad': ['gestante','lactancia','licencia'],
+  'lactancia': ['maternidad'],
+  'licencia': ['maternidad','lactancia'],
+  'hostigamiento': ['hostilidad'],
+  'acoso': ['hostilidad','hostigamiento'],
+  'hostilidad': ['acoso','hostigamiento'],
+  'sindicato': ['sindical'],
+  'sindical': ['sindicato'],
+  'sobretiempo': ['horas extras'],
+  'horas extras': ['sobretiempo'],
+  'horas extra': ['sobretiempo','horas extras'],
+  'tercerizacion': ['subcontratacion','usuaria','usuarias'],
+  'subcontratacion': ['tercerizacion','subcontratacion'],
+  'subcontratada': ['subcontratacion','tercerizacion'],
+  'subcontratado': ['subcontratacion','tercerizacion'],
+  'covid': ['covid-19','pandemia'],
+  'pandemia': ['covid-19','covid'],
+  'despido': ['terminacion','renuncia'],
+  'terminacion': ['despido'],
+  'renuncia': ['despido'],
+  'prueba': ['probanza','probatorio','probatorios'],
+  'probanza': ['prueba'],
+  'vacaciones': ['vacacional'],
+  'sinel': ['notificacion electronica'],
+  'notificacion electronica': ['sinel','casilla electronica'],
+  'casilla': ['casilla electronica'],
+  'accidente': ['accidentes'],
+  'pension': ['pensiones','previsional'],
+  'pensiones': ['pension','previsional'],
+  'huelga': ['25.9'],
+  'discriminacion': ['25.17'],
+  'subordinacion': ['laboralidad','poder directriz'],
+  'laboralidad': ['subordinacion'],
+  'temporal': ['plazo determinado'],
+  'plazo determinado': ['causa objetiva','temporal'],
+  'uniforme': ['epp','equipos de seguridad'],
+  'epp': ['uniforme','equipos de seguridad'],
+  'refrigerio': ['descanso'],
+  'facilidades': ['facilidades sindicales'],
+  'jornada': ['tiempo de trabajo'],
+  'tiempo de trabajo': ['jornada'],
+  'medica': ['vigilancia','salud'],
+  'medico': ['vigilancia','salud']
+};
+
+// raíz muy simple: quita -es / -s final para que "multas" y "multa" coincidan
+const raiz = (t) => t.length >= 6 && t.endsWith('es') ? t.slice(0, -2) : (t.length >= 5 && t.endsWith('s') ? t.slice(0, -1) : t);
+
+function tokensDe(qn) {
+  return qn.split(' ').filter(t => (t.length >= 3 || /\d/.test(t)) && !STOP.has(t));
+}
+
+function conceptos(qn) {
+  const todos = tokensDe(qn);
+  // las palabras genéricas solo se descartan si la consulta tiene otras más específicas
+  const sig = todos.filter(t => !GENERIC.has(t));
+  const toks = sig.length ? sig : todos;
+  const lista = toks.map(t => {
+    const r = raiz(t);
+    return [...new Set([r, t, ...(SYN[t] || []), ...(SYN[r] || [])])];
+  });
+  // expresiones de varias palabras que aparecen en la consulta
+  Object.keys(SYN).filter(k => k.includes(' ') && qn.includes(k)).forEach(k => {
+    if (!lista.some(g => g[0] === k)) lista.push([k, ...SYN[k]]);
+  });
+  return { toks, grupos: lista };
+}
+
+// coincidencia por palabra: el término debe iniciar palabra y admitir solo terminaciones de plural o
+// derivados comunes (accidente -> accidentes, vacacion -> vacacional). No admite "-ador":
+// así "sancion" no acierta en "sancionador" (que aparece en casi todos los precedentes).
+const SUFIJOS = '(?:s|es|a|as|o|os|al|ales|ada|adas|ado|ados)?';
+const escRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const contiene = (hay, termino) => new RegExp('(^|[^a-z0-9])' + escRe(termino) + SUFIJOS + '($|[^a-z0-9])').test(hay);
+
+// Dos niveles de texto del precedente:
+//  - curado: título, criterio, tema(s), palabras clave (coincidencia fuerte);
+//  - fundamentos: texto de los fundamentos citados (coincidencia débil: cuenta solo si el término
+//    aparece al menos 3 veces, para no confundir una mención de paso con el tema del precedente).
+// La nota de la base no se busca.
+const MIN_MENCIONES = 3;
+function textoCurado(p) {
+  return norm([p.titulo, p.criterio, p.tipo, ...p.temas.map(t => t.join(' ')), ...(p.palabras || [])].join(' '));
+}
+function textoFundamentos(p) {
+  return norm((p.textos || []).map(b => b.texto).join(' '));
+}
+function menciones(hay, termino) {
+  const re = new RegExp('(^|[^a-z0-9])' + escRe(termino) + SUFIJOS + '($|[^a-z0-9])', 'g');
+  return (hay.match(re) || []).length;
+}
+
+function buscar(consulta, anio) {
+  const qn = norm(consulta);
+  const { toks, grupos: gr } = conceptos(qn);
+  if (!gr.length) return { resultados: [], sinSentido: toks.length === 0 };
+  const res = [];
+  PRECS.forEach(p => {
+    if (anio && String(p.anio) !== String(anio)) return;
+    const cur = textoCurado(p);
+    const fund = textoFundamentos(p);
+    const hits = [];
+    let peso = 0;
+    gr.forEach(g => {
+      const fuerte = g.find(alt => contiene(cur, alt));
+      if (fuerte) { hits.push(fuerte); peso += 1; return; }
+      const debil = g.find(alt => menciones(fund, alt) >= MIN_MENCIONES);
+      if (debil) { hits.push(debil); peso += 0.5; }
+    });
+    const req = gr.length <= 2 ? gr.length : Math.ceil(gr.length * 0.6);
+    if (hits.length < req) return;
+    const frase = qn.length >= 4 ? (contiene(cur, qn) ? 1 : (contiene(fund, qn) ? 0.5 : 0)) : 0;
+    res.push({ p, score: peso / gr.length + frase, hits });
+  });
+  res.sort((a, b) => b.score - a.score || b.p.anio - a.p.anio);
+  return { resultados: res, sinSentido: false };
+}
+
+const ACC = { a:'[aáàAÁÀ]', e:'[eéèEÉÈ]', i:'[iíìIÍÌ]', o:'[oóòOÓÒ]', u:'[uúùüUÚÙÜ]', n:'[nñNÑ]' };
+const LETRA = 'A-Za-zÁÉÍÓÚÜáéíóúüÑñ0-9';
+function resaltar(texto, terminos) {
+  let out = esc(texto);
+  const ordenados = [...new Set(terminos)].sort((a, b) => b.length - a.length);
+  ordenados.forEach(t => {
+    const base = [...t].map(ch => ch === ' ' ? '\\s+' : (ACC[ch] || escRe(ch))).join('');
+    const patron = `(?<![${LETRA}])${base}(?:s|es|a|as|o|os|al|ales|ada|adas|ado|ados)?(?![${LETRA}])`;
+    try { out = out.replace(new RegExp(patron, 'gi'), m => `<mark>${m}</mark>`); } catch (e) { /* patrón inválido: se omite */ }
+  });
+  return out;
+}
+
+function tarjetaResultado(r, terminos) {
+  const p = r.p;
+  const coinc = [...new Set(r.hits)].map(h => `<span class="chip hit">${esc(h)}</span>`).join('');
+  return `
+    <article class="card">
+      ${cabecera(p, false)}
+      <h3>${resaltar(p.titulo, terminos)}</h3>
+      <p class="origen">${p.temas.map(t => esc(rutaTxt(t))).join('<br>')}</p>
+      <p>${resaltar(p.criterio, terminos)}</p>
+      ${bloqueTexto(p, terminos, true)}
+      ${coinc ? `<div class="chips" aria-label="Términos coincidentes">${coinc}</div>` : ''}
+      ${botonesPdf(p)}
+    </article>`;
+}
+
+function mostrarBusqueda(consulta) {
+  const cont = $('#resultados');
+  const q = consulta.trim();
+  if (!q) { cont.innerHTML = '<p class="summary-line">Escribe una palabra o una frase para buscar en los precedentes.</p>'; return; }
+  const anio = $('#anio').value;
+  const { resultados, sinSentido } = buscar(q, anio);
+  const filtro = anio ? ` (año ${anio})` : '';
+  if (sinSentido || !resultados.length) {
+    cont.innerHTML = `
+      <div class="empty" role="status">
+        <p><strong>No existe ningún precedente de observancia obligatoria relacionado con «${esc(q)}»${filtro}.</strong></p>
+        <p>Revisa la ortografía, prueba con un sinónimo o una palabra más general, o explora los temas en la pestaña anterior.</p>
+        ${anio ? '<p>Si quitas el filtro de año, la búsqueda considera todos los precedentes 2021–2025.</p>' : ''}
+      </div>`;
+    return;
+  }
+  const terminos = [];
+  resultados.forEach(r => r.hits.forEach(h => terminos.push(h)));
+  const { grupos: gr } = conceptos(norm(q));
+  gr.forEach(g => g.forEach(t => terminos.push(t)));
+  const cuenta = resultados.length === 1 ? '1 precedente relacionado' : `${resultados.length} precedentes relacionados`;
+  cont.innerHTML = `<p class="summary-line">${cuenta} con «${esc(q)}»${filtro}.</p>` +
+    resultados.map(r => tarjetaResultado(r, terminos)).join('');
+}
+
+$('#form-buscar').addEventListener('submit', e => {
+  e.preventDefault();
+  mostrarBusqueda($('#q').value);
+});
+$('#anio').addEventListener('change', () => { if ($('#q').value.trim()) mostrarBusqueda($('#q').value); });
+
+const EJEMPLOS = ['hostilidad', 'vacaciones truncas', 'subordinación', 'lactancia', 'huelga', 'trabajo infantil', 'accidente mortal', 'gratificaciones'];
+$('#ejemplos').innerHTML = '<span>Ejemplos:</span>' + EJEMPLOS.map(e => `<button class="chip" type="button" data-q="${esc(e)}">${esc(e)}</button>`).join('');
+$('#ejemplos').querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
+  $('#q').value = b.dataset.q;
+  mostrarBusqueda(b.dataset.q);
+}));
+
+/* ---------- pie ---------- */
+$('#total').textContent = plural(PRECS.length, 'precedente', 'precedentes') + ' de observancia obligatoria';
+
+renderExplorar();
+</script>
+__CONTADOR__
+</body>
+</html>

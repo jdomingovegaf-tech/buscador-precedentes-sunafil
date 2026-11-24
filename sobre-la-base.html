@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sobre la base de datos · SUNAFIL-TFL</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Marca personal (mi-marca/marca.md): lienzo blanco, tinta #212120, acento navy #243C54, dorado #B48444 */
+  :root {
+    --lienzo: #FFFFFF;
+    --tinta: #212120;
+    --tinta-suave: #4F4F4A;
+    --acento: #243C54;
+    --dorado: #B48444;
+    --linea: #E3DFD6;
+    --acento-suave: #EEF2F6;
+    --resalte: rgba(180, 132, 68, .28);
+    --titulo: "EB Garamond", Garamond, "Times New Roman", serif;
+    --texto: Arial, Helvetica, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--lienzo); color: var(--tinta);
+    font: 16px/1.55 var(--texto);
+  }
+  header { max-width: 960px; margin: 0 auto; padding: 30px 16px 0; }
+  h1 { font: 700 2.1rem/1.15 var(--titulo); margin: 0 0 6px; color: var(--tinta); }
+  h1 .acento { color: var(--acento); }
+  h2, h3 { font-family: var(--titulo); font-weight: 600; }
+  .sub { color: var(--tinta-suave); margin: 0; font-size: .95rem; }
+  .arco { display: block; width: 100%; height: 26px; margin-top: 14px; }
+  main { max-width: 960px; margin: 0 auto; padding: 8px 16px 40px; }
+  .tabs { display: flex; gap: 0; margin: 14px 0 18px; border-bottom: 1px solid var(--linea); flex-wrap: wrap; }
+  .tab {
+    background: none; border: none; border-bottom: 2px solid transparent; color: var(--tinta-suave);
+    padding: 10px 16px; cursor: pointer; font: 600 1rem var(--texto); margin-bottom: -1px;
+  }
+  .tab[aria-selected="true"] { color: var(--acento); border-bottom-color: var(--dorado); }
+  .tab:focus-visible, button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
+    outline: 2px solid var(--acento); outline-offset: 2px;
+  }
+  .panel { display: none; }
+  .panel.active { display: block; }
+  .crumbs { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 4px 0 14px; font-size: .92rem; color: var(--tinta-suave); }
+  .crumbs button {
+    background: none; border: none; color: var(--acento); cursor: pointer; padding: 2px 4px; font: inherit; text-decoration: underline;
+  }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .node {
+    text-align: left; background: var(--lienzo); border: 1px solid var(--linea); border-top: 3px solid var(--acento);
+    border-radius: 4px; padding: 14px 16px; cursor: pointer; font: inherit; color: var(--tinta);
+    display: flex; flex-direction: column; gap: 6px; min-height: 96px;
+  }
+  .node:hover { border-color: var(--dorado); border-top-color: var(--dorado); }
+  .node:disabled { opacity: .5; cursor: default; }
+  .node strong { font: 600 1.12rem/1.25 var(--titulo); }
+  .count { color: var(--tinta-suave); font-size: .85rem; margin-top: auto; }
+  .card {
+    background: var(--lienzo); border: 1px solid var(--linea); border-radius: 4px; padding: 18px 20px; margin-bottom: 14px;
+  }
+  .card h3 { margin: 6px 0 6px; font-size: 1.3rem; line-height: 1.25; color: var(--tinta); }
+  .card p { margin: 0 0 8px; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; font-size: .84rem; color: var(--tinta-suave); align-items: center; }
+  .badge { background: var(--acento-suave); color: var(--acento); border-radius: 3px; padding: 1px 8px; font-weight: 700; }
+  .badge.warn { background: #F6EEDF; color: #6E4C1C; }
+  .origen { font-size: .88rem; color: var(--tinta-suave); margin: 0 0 6px; }
+  details { margin-top: 8px; font-size: .95rem; }
+  summary { cursor: pointer; color: var(--acento); font-weight: 700; }
+  .texto { border-top: 1px solid var(--linea); padding-top: 8px; margin-top: 10px; }
+  .texto .frag { margin: 0 0 10px; text-align: justify; line-height: 1.65; }
+  .texto .frag strong { color: var(--acento); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .chip {
+    border: 1px solid var(--linea); border-radius: 3px; padding: 2px 9px; font: .83rem var(--texto);
+    color: var(--tinta-suave); background: none; cursor: pointer;
+  }
+  .chip.hit { border-color: var(--dorado); color: var(--tinta); }
+  .acciones { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  a.pdf {
+    display: inline-block; padding: 9px 16px; border-radius: 3px; border: 1px solid var(--acento);
+    background: var(--acento); color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: .93rem;
+  }
+  a.pdf:hover { background: #1B2E41; }
+  mark { background: var(--resalte); color: inherit; border-radius: 2px; padding: 0 2px; }
+  .searchbox { display: flex; gap: 8px; flex-wrap: wrap; }
+  .searchbox input {
+    flex: 1 1 260px; font: 1rem var(--texto); padding: 11px 14px; border-radius: 3px; border: 1px solid #BDB8AC;
+    background: var(--lienzo); color: var(--tinta);
+  }
+  .searchbox select, .searchbox button {
+    font: 600 1rem var(--texto); padding: 10px 16px; border-radius: 3px; border: 1px solid var(--acento);
+    background: var(--lienzo); color: var(--acento); cursor: pointer;
+  }
+  .searchbox button { background: var(--acento); color: #FFFFFF; }
+  .searchbox button:hover { background: #1B2E41; }
+  .examples { margin: 10px 0 16px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; color: var(--tinta-suave); font-size: .9rem; }
+  .summary-line { margin: 6px 0 12px; color: var(--tinta-suave); }
+  .empty { background: #F6EEDF; color: #4A3414; border-radius: 3px; padding: 16px 18px; border-left: 3px solid var(--dorado); }
+  .empty p { margin: 4px 0; }
+  .aside {
+    margin-top: 30px; border-top: 1px solid var(--linea); padding-top: 16px; font-size: .93rem; color: var(--tinta-suave);
+  }
+  .aside h2 { font-size: 1.15rem; color: var(--tinta); margin: 0 0 6px; }
+  .aside ul { margin: 6px 0 0; padding-left: 18px; }
+  .aside li { margin-bottom: 4px; }
+  footer {
+    max-width: 960px; margin: 0 auto; padding: 18px 16px 34px; border-top: 1px solid var(--linea);
+    font-size: .9rem; color: var(--tinta-suave);
+  }
+  footer .firma { font: 600 1.1rem var(--titulo); color: var(--acento); margin: 0; }
+  footer a { color: var(--acento); }
+  @media (max-width: 520px) {
+    h1 { font-size: 1.7rem; }
+    .tab { flex: 1 1 auto; text-align: center; padding: 10px 6px; }
+  }
+</style>
+<body>
+<header>
+  <h1>Sobre la <span class="acento">base de datos</span></h1>
+</header>
+<main>
+  <p><a href="index.html">← Volver al buscador</a></p>
+  <h2>Criterios interpretativos (no son precedentes)</h2>
+  <p><strong>2023-008</strong> · Demora en la respuesta a requerimientos de información, razonabilidad y culpabilidad. Acuerdo que establece criterios administrativos interpretativos e integradores de observancia obligatoria, distintos de los precedentes, sobre la demora en la respuesta a los requerimientos de información, la razonabilidad y culpabilidad en la imposición de la sanción, y el plazo de cumplimiento de las medidas inspectivas de requerimiento.</p>
+  <h2>Notas</h2>
+  <ul><li>Se analizaron 68 resoluciones (2021 a 2025). Se excluyó la Resolución de Sala Plena 011-2023, que es una fe de erratas de la 005-2023 y no declara precedente propio.</li><li>La Resolución de Sala Plena 008-2023 es un Acuerdo que declara criterios administrativos interpretativos e integradores. Se muestra aparte porque, según su propio texto, no son precedentes.</li><li>Los temas, criterios y palabras clave se elaboraron a partir de la sumilla, del punto resolutivo y de los fundamentos citados en cada resolución. Para el texto completo del criterio, consulte el PDF original.</li></ul>
+</main>
+</body>
+</html>

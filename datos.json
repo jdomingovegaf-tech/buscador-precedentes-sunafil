@@ -1,0 +1,1641 @@
+{
+  "temas_generales": [
+    "Procedimiento sancionador y principios",
+    "Función inspectiva y medidas inspectivas",
+    "Tipificación de infracciones (RLGIT)",
+    "Seguridad y salud en el trabajo",
+    "Relación de trabajo y derechos laborales",
+    "Libertad sindical y negociación colectiva"
+  ],
+  "contador": {
+    "goatcounter": "",
+    "nota": "Código de su cuenta en goatcounter.com (solo letras, números y guiones). Dejar vacío = sin contador."
+  },
+  "precedentes": [
+    {
+      "id": "2021-001",
+      "anio": 2021,
+      "numero": "001-2021",
+      "tipo": "Precedente",
+      "titulo": "Actos que dificultan la labor inspectiva, actas de infracción, jornada máxima minera y COVID-19",
+      "criterio": "Reúne criterios sobre los actos que impiden o dificultan la labor inspectiva (fund. 9), la motivación de las actas de infracción (fund. 15 y 16), el test de protección de la jornada máxima en la minería (fund. 23) y la actuación inspectiva durante las medidas por COVID-19 (fund. 24 y 25).",
+      "fundamentos": "9, 15, 16, 23, 24 y 25",
+      "palabras": [
+        "obstrucción",
+        "labor inspectiva",
+        "acta de infracción",
+        "motivación",
+        "jornada máxima",
+        "minería",
+        "COVID-19",
+        "covid",
+        "pandemia",
+        "test de protección"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Actuaciones inspectivas",
+          "Obstrucción a la labor inspectiva y actas de infracción"
+        ],
+        [
+          "Relación de trabajo y derechos laborales",
+          "Jornada y tiempo de trabajo",
+          "Jornada máxima"
+        ]
+      ]
+    },
+    {
+      "id": "2021-002",
+      "anio": 2021,
+      "numero": "002-2021",
+      "tipo": "Precedente (Acuerdo Plenario)",
+      "titulo": "Trabajo infantil, razonabilidad de la multa, facultades de requerimiento y culpabilidad en contexto COVID-19",
+      "criterio": "Precisa que las sanciones del artículo 25.7 del RLGIT se reservan para las peores formas de trabajo infantil (fund. 7 a 9), exige razonabilidad en la determinación de la multa (fund. 8), reconoce las facultades de requerimiento de la inspección (fund. 19) y fija criterios de culpabilidad para situaciones especiales, incluido el contexto COVID-19 (fund. 26 a 41).",
+      "fundamentos": "7, 8, 9, 14, 15, 16, 19, 23, 26, 27, 28, 33, 34, 35, 36, 39, 40 y 41",
+      "palabras": [
+        "trabajo infantil",
+        "menores",
+        "25.7",
+        "multa",
+        "razonabilidad",
+        "culpabilidad",
+        "COVID-19",
+        "covid",
+        "requerimiento",
+        "entidades públicas"
+      ],
+      "temas": [
+        [
+          "Tipificación de infracciones (RLGIT)",
+          "Relaciones laborales (art. 25 RLGIT)",
+          "Trabajo infantil (25.7)"
+        ],
+        [
+          "Procedimiento sancionador y principios",
+          "Sanciones",
+          "Razonabilidad y exceso de punición"
+        ]
+      ]
+    },
+    {
+      "id": "2022-001",
+      "anio": 2022,
+      "numero": "001-2022",
+      "tipo": "Precedente",
+      "titulo": "Obstrucción a la labor inspectiva en las visitas a centros o lugares de trabajo",
+      "criterio": "Criterio referido a la obstrucción a la labor inspectiva en las visitas a los centros o lugares de trabajo (fund. 6.13 a 6.16).",
+      "fundamentos": "6.13, 6.14, 6.15 y 6.16",
+      "palabras": [
+        "obstrucción",
+        "visita inspectiva",
+        "centro de trabajo",
+        "labor inspectiva",
+        "impedir la inspección"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Actuaciones inspectivas",
+          "Obstrucción a la labor inspectiva y actas de infracción"
+        ]
+      ]
+    },
+    {
+      "id": "2022-002",
+      "anio": 2022,
+      "numero": "002-2022",
+      "tipo": "Precedente",
+      "titulo": "Incumplimiento de las medidas inspectivas de requerimiento",
+      "criterio": "Criterio referido al incumplimiento de las medidas inspectivas de requerimiento (fund. 6.8 a 6.10).",
+      "fundamentos": "6.8, 6.9 y 6.10",
+      "palabras": [
+        "medida de requerimiento",
+        "incumplimiento",
+        "requerimiento",
+        "medida inspectiva"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Medida inspectiva de requerimiento",
+          "Incumplimiento de la medida"
+        ]
+      ]
+    },
+    {
+      "id": "2022-003",
+      "anio": 2022,
+      "numero": "003-2022",
+      "tipo": "Precedente",
+      "titulo": "Recurso de revisión que no se sustenta en inaplicación o errónea interpretación de normas laborales",
+      "criterio": "Criterio referido a la interposición del recurso de revisión que no se sustenta en la inaplicación, aplicación o interpretación errónea de las normas de derecho laboral (fund. 6.17 a 6.19).",
+      "fundamentos": "6.17, 6.18 y 6.19",
+      "palabras": [
+        "recurso de revisión",
+        "causales",
+        "inaplicación",
+        "interpretación errónea",
+        "apartamiento inmotivado",
+        "improcedente"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Recurso de revisión",
+          "Causales y fundamentación del recurso"
+        ]
+      ]
+    },
+    {
+      "id": "2022-004",
+      "anio": 2022,
+      "numero": "004-2022",
+      "tipo": "Precedente",
+      "titulo": "Jornadas de trabajo acumulativas",
+      "criterio": "Criterio referido a las jornadas de trabajo acumulativas (fund. 6.21 a 6.23).",
+      "fundamentos": "6.21, 6.22 y 6.23",
+      "palabras": [
+        "jornada acumulativa",
+        "jornada",
+        "tiempo de trabajo",
+        "acumulativa"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Jornada y tiempo de trabajo",
+          "Jornadas acumulativas"
+        ]
+      ]
+    },
+    {
+      "id": "2022-005",
+      "anio": 2022,
+      "numero": "005-2022",
+      "tipo": "Precedente",
+      "titulo": "Tipificación de los numerales 28.10 y 28.11 del RLGIT y concurso de infracciones",
+      "criterio": "Criterio referido a la tipificación de las infracciones reguladas en los numerales 28.10 y 28.11 del RLGIT, en materia de gestión interna de SST, registro de accidentes e incidentes (fund. 6.15 y 6.18 a 6.21), e incluye el concurso de infracciones (fund. 6).",
+      "fundamentos": "6.15, 6.18, 6.19, 6.20 y 6.21",
+      "palabras": [
+        "28.10",
+        "28.11",
+        "gestión interna",
+        "registro de accidentes",
+        "incidentes",
+        "concurso de infracciones",
+        "SST"
+      ],
+      "temas": [
+        [
+          "Seguridad y salud en el trabajo",
+          "Tipificación en SST (arts. 27 y 28 RLGIT)",
+          "Gestión interna de SST (28.10 y 28.11)"
+        ],
+        [
+          "Procedimiento sancionador y principios",
+          "Concurso y continuidad de infracciones",
+          "Concurso de infracciones"
+        ]
+      ]
+    },
+    {
+      "id": "2022-006",
+      "anio": 2022,
+      "numero": "006-2022",
+      "tipo": "Precedente",
+      "titulo": "Primacía de la realidad en la actuación de la autoridad administrativa",
+      "criterio": "Criterio referido al principio de primacía de la realidad aplicado por la autoridad administrativa (fund. 6.22 a 6.24).",
+      "fundamentos": "6.22, 6.23 y 6.24",
+      "palabras": [
+        "primacía de la realidad",
+        "principio",
+        "autoridad administrativa",
+        "igualdad",
+        "discriminación"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Principios del procedimiento",
+          "Primacía de la realidad"
+        ]
+      ]
+    },
+    {
+      "id": "2022-007",
+      "anio": 2022,
+      "numero": "007-2022",
+      "tipo": "Precedente",
+      "titulo": "Bloque de legalidad en la solicitud de suspensión perfecta de labores",
+      "criterio": "Criterio referido al bloque de legalidad en las actuaciones de la autoridad administrativa sobre la solicitud de suspensión perfecta de labores (fund. 6.29 a 6.32).",
+      "fundamentos": "6.29, 6.30, 6.31 y 6.32",
+      "palabras": [
+        "suspensión perfecta",
+        "suspensión de labores",
+        "bloque de legalidad",
+        "legalidad"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Suspensión perfecta de labores",
+          "Bloque de legalidad en la solicitud de suspensión"
+        ]
+      ]
+    },
+    {
+      "id": "2022-008",
+      "anio": 2022,
+      "numero": "008-2022",
+      "tipo": "Precedente",
+      "titulo": "Jornada máxima de trabajo",
+      "criterio": "Criterio referido a la jornada máxima de trabajo (fund. 6.10 a 6.12).",
+      "fundamentos": "6.10, 6.11 y 6.12",
+      "palabras": [
+        "jornada máxima",
+        "horas de trabajo",
+        "jornada"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Jornada y tiempo de trabajo",
+          "Jornada máxima"
+        ]
+      ]
+    },
+    {
+      "id": "2022-009",
+      "anio": 2022,
+      "numero": "009-2022",
+      "tipo": "Precedente",
+      "titulo": "Extensión de beneficios de convenios colectivos minoritarios",
+      "criterio": "Criterio referido a la extensión de beneficios de los convenios colectivos minoritarios por parte de los empleadores (fund. 6.22, 6.29 y 6.30).",
+      "fundamentos": "6.22, 6.29 y 6.30",
+      "palabras": [
+        "convenio colectivo",
+        "minoritario",
+        "extensión de beneficios",
+        "beneficios",
+        "sindicato"
+      ],
+      "temas": [
+        [
+          "Libertad sindical y negociación colectiva",
+          "Negociación colectiva",
+          "Extensión de beneficios de convenios"
+        ]
+      ]
+    },
+    {
+      "id": "2022-010",
+      "anio": 2022,
+      "numero": "010-2022",
+      "tipo": "Precedente",
+      "titulo": "Existencia de infracciones continuadas",
+      "criterio": "Criterio referido a la existencia de infracciones continuadas (fund. 6.31 a 6.33). La sumilla también menciona la acumulación de dos expedientes.",
+      "fundamentos": "6.31, 6.32 y 6.33",
+      "palabras": [
+        "infracción continuada",
+        "continuidad",
+        "acumulación",
+        "infracciones",
+        "expedientes"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Concurso y continuidad de infracciones",
+          "Infracciones continuadas"
+        ],
+        [
+          "Procedimiento sancionador y principios",
+          "Concurso y continuidad de infracciones",
+          "Acumulación de procedimientos"
+        ]
+      ]
+    },
+    {
+      "id": "2022-011",
+      "anio": 2022,
+      "numero": "011-2022",
+      "tipo": "Precedente",
+      "titulo": "Supervisión en materia de seguridad y salud en el trabajo",
+      "criterio": "Criterio referente a la supervisión en materia de seguridad y salud en el trabajo (fund. 6.5.14 a 6.5.16).",
+      "fundamentos": "6.5.14, 6.5.15 y 6.5.16",
+      "palabras": [
+        "supervisión",
+        "seguridad y salud",
+        "SST",
+        "inspección"
+      ],
+      "nota": "El PDF incluye, al final, texto correspondiente al precedente de la Resolución 012-2022 (protección de la mujer gestante). Conviene verificar la versión oficial publicada en El Peruano.",
+      "temas": [
+        [
+          "Seguridad y salud en el trabajo",
+          "Función inspectiva en SST",
+          "Supervisión en SST"
+        ]
+      ]
+    },
+    {
+      "id": "2022-012",
+      "anio": 2022,
+      "numero": "012-2022",
+      "tipo": "Precedente",
+      "titulo": "Protección a favor de la mujer gestante en el ámbito laboral",
+      "criterio": "Criterio referido a la protección a favor de la mujer gestante en el ámbito laboral (fund. 6.1.15 a 6.1.20).",
+      "fundamentos": "6.1.15, 6.1.16, 6.1.17, 6.1.18, 6.1.19 y 6.1.20",
+      "palabras": [
+        "gestante",
+        "embarazada",
+        "mujer",
+        "despido",
+        "no renovación de contrato",
+        "contrato",
+        "terminación",
+        "lactancia",
+        "maternidad",
+        "discriminación por sexo"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Protección de trabajadoras",
+          "Mujer gestante y lactancia"
+        ]
+      ]
+    },
+    {
+      "id": "2022-013",
+      "anio": 2022,
+      "numero": "013-2022",
+      "tipo": "Precedente",
+      "titulo": "Non bis in ídem en la actuación de la autoridad administrativa",
+      "criterio": "Criterio referido a la aplicación del principio de non bis in ídem por parte de la autoridad administrativa (fund. 6.9 a 6.11).",
+      "fundamentos": "6.9, 6.10 y 6.11",
+      "palabras": [
+        "non bis in idem",
+        "doble sanción",
+        "principio",
+        "identidad de hecho"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Principios del procedimiento",
+          "Non bis in ídem"
+        ]
+      ]
+    },
+    {
+      "id": "2022-014",
+      "anio": 2022,
+      "numero": "014-2022",
+      "tipo": "Precedente",
+      "titulo": "Razonabilidad del plazo para cumplir la medida inspectiva de requerimiento",
+      "criterio": "Criterio referido a la razonabilidad del plazo otorgado para el cumplimiento de la medida inspectiva de requerimiento (fund. 6.10, 6.14 y 6.16).",
+      "fundamentos": "6.10, 6.14 y 6.16",
+      "palabras": [
+        "plazo",
+        "requerimiento",
+        "razonabilidad",
+        "cumplimiento",
+        "medida inspectiva"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Medida inspectiva de requerimiento",
+          "Plazo para cumplir la medida"
+        ]
+      ]
+    },
+    {
+      "id": "2023-001",
+      "anio": 2023,
+      "numero": "001-2023",
+      "tipo": "Precedente",
+      "titulo": "Principio de licitud en el procedimiento administrativo sancionador",
+      "criterio": "Criterio referido al principio de licitud en el procedimiento administrativo sancionador (fund. 6.19 a 6.22).",
+      "fundamentos": "6.19, 6.20, 6.21 y 6.22",
+      "palabras": [
+        "licitud",
+        "principio de licitud",
+        "procedimiento sancionador"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Principios del procedimiento",
+          "Licitud"
+        ]
+      ]
+    },
+    {
+      "id": "2023-002",
+      "anio": 2023,
+      "numero": "002-2023",
+      "tipo": "Precedente (Acuerdo Plenario)",
+      "titulo": "Notificación de requerimientos de información por SINEL y casilla electrónica",
+      "criterio": "Criterio referido a los casos de notificación de los requerimientos de información a través del Sistema de Notificación Electrónica de la SUNAFIL (SINEL) y al uso de la casilla electrónica (fund. 13 a 32).",
+      "fundamentos": "13, 14, 22, 23, 28, 29, 30, 31 y 32",
+      "palabras": [
+        "SINEL",
+        "notificación electrónica",
+        "casilla electrónica",
+        "requerimiento de información",
+        "notificación"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Requerimientos de información",
+          "Notificación electrónica (SINEL)"
+        ]
+      ]
+    },
+    {
+      "id": "2023-003",
+      "anio": 2023,
+      "numero": "003-2023",
+      "tipo": "Precedente",
+      "titulo": "Primacía de la realidad en la verificación de horas extras en jornada a tiempo parcial",
+      "criterio": "Criterio referido al principio de primacía de la realidad en la verificación de horas extras en la jornada de trabajo a tiempo parcial (fund. 6.40 a 6.49).",
+      "fundamentos": "6.40, 6.41, 6.42, 6.43, 6.44, 6.45 y 6.49",
+      "palabras": [
+        "horas extras",
+        "tiempo parcial",
+        "sobretiempo",
+        "primacía de la realidad",
+        "jornada"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Jornada y tiempo de trabajo",
+          "Horas extras en jornada a tiempo parcial"
+        ]
+      ]
+    },
+    {
+      "id": "2023-004",
+      "anio": 2023,
+      "numero": "004-2023",
+      "tipo": "Precedente",
+      "titulo": "Pluralidad sindical y extensión de beneficios a un sindicato minoritario sin acuerdo",
+      "criterio": "Criterio referido a la pluralidad sindical y a los efectos de la extensión de beneficios sobre un sindicato minoritario que no pactó acuerdo (fund. 6.36 a 6.41).",
+      "fundamentos": "6.36, 6.37, 6.38 y 6.41",
+      "palabras": [
+        "pluralidad sindical",
+        "sindicato minoritario",
+        "extensión de beneficios",
+        "libertad sindical",
+        "negociación colectiva"
+      ],
+      "temas": [
+        [
+          "Libertad sindical y negociación colectiva",
+          "Negociación colectiva",
+          "Pluralidad sindical"
+        ]
+      ]
+    },
+    {
+      "id": "2023-005",
+      "anio": 2023,
+      "numero": "005-2023",
+      "tipo": "Precedente",
+      "titulo": "Medidas preventivas en materia de seguridad y salud en el trabajo",
+      "criterio": "Criterio referente a las medidas preventivas en materia de seguridad y salud en el trabajo (fund. 6.37 a 6.40).",
+      "fundamentos": "6.37, 6.38, 6.39 y 6.40",
+      "palabras": [
+        "medidas preventivas",
+        "seguridad y salud",
+        "SST",
+        "prevención"
+      ],
+      "temas": [
+        [
+          "Seguridad y salud en el trabajo",
+          "Medidas preventivas",
+          "Medidas preventivas en SST"
+        ]
+      ]
+    },
+    {
+      "id": "2023-006",
+      "anio": 2023,
+      "numero": "006-2023",
+      "tipo": "Precedente",
+      "titulo": "Facultad de integración del Tribunal de Fiscalización Laboral",
+      "criterio": "Criterio referente a la facultad de integración del Tribunal de Fiscalización Laboral (fund. 6.23 y subnumerales).",
+      "fundamentos": "6.23, 6.23.1, 6.23.2 y 6.23.3",
+      "palabras": [
+        "integración",
+        "facultad de integración",
+        "Tribunal de Fiscalización Laboral"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Facultades del Tribunal",
+          "Integración normativa"
+        ]
+      ]
+    },
+    {
+      "id": "2023-007",
+      "anio": 2023,
+      "numero": "007-2023",
+      "tipo": "Precedente",
+      "titulo": "Tipo infractor del numeral 25.19 del artículo 25 del RLGIT",
+      "criterio": "Criterio referente al tipo infractor contenido en el numeral 25.19 del artículo 25 del RLGIT (fund. 6.10 a 6.12, 6.15 a 6.18).",
+      "fundamentos": "6.10, 6.11, 6.12, 6.15, 6.16, 6.17 y 6.18",
+      "palabras": [
+        "25.19",
+        "tipo infractor",
+        "relaciones laborales"
+      ],
+      "temas": [
+        [
+          "Tipificación de infracciones (RLGIT)",
+          "Relaciones laborales (art. 25 RLGIT)",
+          "Numeral 25.19"
+        ]
+      ]
+    },
+    {
+      "id": "2023-008",
+      "anio": 2023,
+      "numero": "008-2023",
+      "tipo": "Criterio interpretativo (no es precedente)",
+      "titulo": "Demora en la respuesta a requerimientos de información, razonabilidad y culpabilidad",
+      "criterio": "Acuerdo que establece criterios administrativos interpretativos e integradores de observancia obligatoria, distintos de los precedentes, sobre la demora en la respuesta a los requerimientos de información, la razonabilidad y culpabilidad en la imposición de la sanción, y el plazo de cumplimiento de las medidas inspectivas de requerimiento.",
+      "fundamentos": "",
+      "palabras": [
+        "demora",
+        "requerimientos de información",
+        "culpabilidad",
+        "razonabilidad",
+        "plazo de cumplimiento"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Requerimientos de información",
+          "Demora y culpabilidad (criterio interpretativo)"
+        ]
+      ]
+    },
+    {
+      "id": "2023-009",
+      "anio": 2023,
+      "numero": "009-2023",
+      "tipo": "Precedente",
+      "titulo": "Elementos de la medida inspectiva de requerimiento",
+      "criterio": "Criterio referente a los elementos de la medida inspectiva de requerimiento (fund. 6.26, literales a, b, d, e, f y g).",
+      "fundamentos": "6.26 (literales a, b, d, e, f y g)",
+      "palabras": [
+        "elementos",
+        "medida de requerimiento",
+        "mandato",
+        "requerimiento"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Medida inspectiva de requerimiento",
+          "Elementos de la medida"
+        ]
+      ]
+    },
+    {
+      "id": "2023-010",
+      "anio": 2023,
+      "numero": "010-2023",
+      "tipo": "Precedente",
+      "titulo": "Registro del control del tiempo de trabajo e irrenunciabilidad de derechos",
+      "criterio": "Criterio referente al registro del control del tiempo de trabajo y al principio de irrenunciabilidad de derechos en el ámbito laboral (fund. 6.20 y 6.38 a 6.40).",
+      "fundamentos": "6.20, 6.38, 6.39 y 6.40",
+      "palabras": [
+        "registro de control",
+        "control de asistencia",
+        "tiempo de trabajo",
+        "irrenunciabilidad",
+        "asistencia"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Jornada y tiempo de trabajo",
+          "Registro de control de asistencia"
+        ]
+      ]
+    },
+    {
+      "id": "2023-012",
+      "anio": 2023,
+      "numero": "012-2023",
+      "tipo": "Precedente",
+      "titulo": "Reducción del 90% de la sanción, deber de colaboración y facultades de supervisión",
+      "criterio": "Criterios sobre la reducción del 90% de la sanción en los supuestos previstos (fund. 18 a 20), la obligación del empleador de colaborar con las actuaciones inspectivas (fund. 25 a 28) y las facultades de supervisión de la autoridad inspectiva (fund. 33 y 34), además de los fundamentos 11 a 13 y 39 a 43.",
+      "fundamentos": "11, 12, 13, 18, 19, 20, 25, 26, 27, 28, 33, 34, 39, 40, 42 y 43",
+      "palabras": [
+        "reducción",
+        "90%",
+        "reducción de la sanción",
+        "subsanación",
+        "colaboración",
+        "deber de colaboración",
+        "supervisión",
+        "facultades de supervisión"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Sanciones",
+          "Reducción de la sanción (90%)"
+        ],
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Actuaciones inspectivas",
+          "Deber de colaboración del administrado"
+        ],
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Actuaciones inspectivas",
+          "Facultades de supervisión"
+        ]
+      ]
+    },
+    {
+      "id": "2023-013",
+      "anio": 2023,
+      "numero": "013-2023",
+      "tipo": "Precedente",
+      "titulo": "Indicios de subordinación y primacía de la realidad para determinar la relación laboral",
+      "criterio": "Criterios sobre la existencia de subordinación (manifestaciones del poder directriz y de control) y la aplicación de la primacía de la realidad para determinar la relación laboral (fund. 6.24, 6.25, 6.31 y 6.32). La resolución también reclasifica una infracción muy grave del numeral 25.6 como grave.",
+      "fundamentos": "6.24, 6.25, 6.31 y 6.32",
+      "palabras": [
+        "subordinación",
+        "relación laboral",
+        "primacía de la realidad",
+        "poder directriz",
+        "laboralidad",
+        "prestación de servicios",
+        "25.6"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Existencia de relación laboral",
+          "Subordinación y primacía de la realidad"
+        ],
+        [
+          "Tipificación de infracciones (RLGIT)",
+          "Relaciones laborales (art. 25 RLGIT)",
+          "Numeral 25.6 (reclasificación de la infracción)"
+        ]
+      ]
+    },
+    {
+      "id": "2023-014",
+      "anio": 2023,
+      "numero": "014-2023",
+      "tipo": "Precedente",
+      "titulo": "Tipo infractor del numeral 25.17 y exigibilidad de los numerales 25.22 y 25.23",
+      "criterio": "Criterio sobre el tipo infractor del numeral 25.17 del artículo 25 del RLGIT y la delimitación de la exigibilidad de los numerales 25.22 y 25.23 para administrados distintos al sector privado (fund. 6.8, 6.21, 6.22, 6.25, 6.26, 6.33 a 6.35, 6.45 y 6.49).",
+      "fundamentos": "6.8, 6.21, 6.22, 6.25, 6.26, 6.33, 6.34, 6.35, 6.45 y 6.49",
+      "palabras": [
+        "25.17",
+        "25.22",
+        "25.23",
+        "sector público",
+        "exigibilidad",
+        "tipo infractor"
+      ],
+      "temas": [
+        [
+          "Tipificación de infracciones (RLGIT)",
+          "Relaciones laborales (art. 25 RLGIT)",
+          "Numerales 25.17, 25.22 y 25.23"
+        ]
+      ]
+    },
+    {
+      "id": "2023-015",
+      "anio": 2023,
+      "numero": "015-2023",
+      "tipo": "Precedente",
+      "titulo": "Causa objetiva en los contratos de trabajo a plazo determinado",
+      "criterio": "Criterio referido a la determinación de la causa objetiva en los contratos a plazo determinado (fund. 6.28 a 6.30, 6.34 y 6.35).",
+      "fundamentos": "6.28, 6.29, 6.30, 6.34 y 6.35",
+      "palabras": [
+        "plazo determinado",
+        "causa objetiva",
+        "contrato temporal",
+        "desnaturalización",
+        "modalidad contractual"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Contratos de trabajo",
+          "Causa objetiva en plazo determinado"
+        ]
+      ]
+    },
+    {
+      "id": "2023-016",
+      "anio": 2023,
+      "numero": "016-2023",
+      "tipo": "Precedente",
+      "titulo": "Tiempo de cambio de uniforme y equipos de seguridad como parte de la jornada",
+      "criterio": "Criterio respecto a que el tiempo invertido por los trabajadores para el cambio del uniforme de trabajo y/o elementos de seguridad forma parte de su jornada laboral (fund. 6.16, 6.20, 6.21, 6.23 a 6.27).",
+      "fundamentos": "6.16, 6.20, 6.21, 6.23, 6.24, 6.25, 6.26 y 6.27",
+      "palabras": [
+        "uniforme",
+        "cambio de uniforme",
+        "EPP",
+        "equipos de seguridad",
+        "jornada",
+        "tiempo de trabajo"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Jornada y tiempo de trabajo",
+          "Tiempo de cambio de uniforme y EPP"
+        ]
+      ]
+    },
+    {
+      "id": "2024-001",
+      "anio": 2024,
+      "numero": "001-2024",
+      "tipo": "Precedente",
+      "titulo": "Razonabilidad de la sanción cuando el sindicato efectúa el control del incumplimiento",
+      "criterio": "Criterio sobre la razonabilidad de la medida sancionadora para evitar el exceso de punición, en un caso en el que el sindicato efectuó un control más oportuno y efectivo que el de la inspección (fund. 6.63, 6.67, 6.68, 6.73 a 6.75 y 6.77).",
+      "fundamentos": "6.63, 6.67, 6.68, 6.73, 6.74, 6.75 y 6.77",
+      "palabras": [
+        "razonabilidad",
+        "exceso de punición",
+        "sindicato",
+        "control sindical",
+        "sanción",
+        "incumplimiento absuelto"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Sanciones",
+          "Razonabilidad y exceso de punición"
+        ],
+        [
+          "Libertad sindical y negociación colectiva",
+          "Actos antisindicales",
+          "Control sindical del incumplimiento"
+        ]
+      ]
+    },
+    {
+      "id": "2024-002",
+      "anio": 2024,
+      "numero": "002-2024",
+      "tipo": "Precedente",
+      "titulo": "Exigibilidad de la probanza y traslado injustificado de trabajadores afiliados",
+      "criterio": "Criterio sobre la exigibilidad de la probanza frente a las alegaciones y la afectación de la libertad sindical individual y colectiva por el traslado injustificado de trabajadores afiliados (fund. 6.36, 6.37, 6.39 a 6.41).",
+      "fundamentos": "6.36, 6.37, 6.39, 6.40 y 6.41",
+      "palabras": [
+        "traslado",
+        "afiliados",
+        "libertad sindical",
+        "probanza",
+        "carga de la prueba",
+        "actos antisindicales"
+      ],
+      "temas": [
+        [
+          "Libertad sindical y negociación colectiva",
+          "Actos antisindicales",
+          "Traslado injustificado de afiliados"
+        ],
+        [
+          "Procedimiento sancionador y principios",
+          "Prueba",
+          "Exigibilidad de la probanza"
+        ]
+      ]
+    },
+    {
+      "id": "2024-003",
+      "anio": 2024,
+      "numero": "003-2024",
+      "tipo": "Precedente",
+      "titulo": "Subsanabilidad de las infracciones a las normas de trabajo",
+      "criterio": "Criterio sobre el carácter subsanable de las infracciones a las normas de trabajo (fund. 6.18 y 6.26 a 6.31). Establece que son subsanables las infracciones cuyos efectos antijurídicos puedan ser reparados en su totalidad.",
+      "fundamentos": "6.18, 6.26, 6.27, 6.28, 6.29, 6.30 y 6.31",
+      "palabras": [
+        "subsanable",
+        "insubsanable",
+        "subsanación",
+        "efectos",
+        "infracción",
+        "medida de requerimiento"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Sanciones",
+          "Subsanabilidad de la infracción"
+        ]
+      ]
+    },
+    {
+      "id": "2024-004",
+      "anio": 2024,
+      "numero": "004-2024",
+      "tipo": "Precedente",
+      "titulo": "No asignar ocupación efectiva como acto de hostilidad",
+      "criterio": "Criterio sobre la vulneración de la dignidad de los trabajadores por no asignarles ocupación efectiva, lo que constituye un acto de hostilidad (fund. 6.28, 6.31 y 6.34).",
+      "fundamentos": "6.28, 6.31 y 6.34",
+      "palabras": [
+        "hostilidad",
+        "ocupación efectiva",
+        "dignidad",
+        "trabajador",
+        "sin trabajo asignado"
+      ],
+      "temas": [
+        [
+          "Libertad sindical y negociación colectiva",
+          "Actos de hostilidad",
+          "Dignidad y ocupación efectiva"
+        ]
+      ]
+    },
+    {
+      "id": "2024-005",
+      "anio": 2024,
+      "numero": "005-2024",
+      "tipo": "Precedente",
+      "titulo": "Razonabilidad en la verificación del acto de hostilidad del artículo 30 c) del TUO del D. Leg. 728",
+      "criterio": "Criterio sobre el principio de razonabilidad en la verificación del acto de hostilidad contenido en el inciso c) del artículo 30 del TUO del Decreto Legislativo 728 (fund. 6.33 a 6.35 y 6.38 a 6.40).",
+      "fundamentos": "6.33, 6.34, 6.35, 6.38, 6.39 y 6.40",
+      "palabras": [
+        "hostilidad",
+        "razonabilidad",
+        "artículo 30",
+        "decreto legislativo 728",
+        "acto de hostilidad"
+      ],
+      "temas": [
+        [
+          "Libertad sindical y negociación colectiva",
+          "Actos de hostilidad",
+          "Razonabilidad en la verificación"
+        ]
+      ]
+    },
+    {
+      "id": "2024-006",
+      "anio": 2024,
+      "numero": "006-2024",
+      "tipo": "Precedente",
+      "titulo": "Tipo infractor del numeral 25.14 (actos de hostilidad)",
+      "criterio": "Criterio sobre el tipo infractor del numeral 25.14 del artículo 25 del RLGIT, referido a actos de hostilidad (fund. 6.9 a 6.13 y 6.16).",
+      "fundamentos": "6.9, 6.10, 6.11, 6.12, 6.13 y 6.16",
+      "palabras": [
+        "25.14",
+        "hostilidad",
+        "tipo infractor",
+        "actos de hostilidad"
+      ],
+      "temas": [
+        [
+          "Tipificación de infracciones (RLGIT)",
+          "Relaciones laborales (art. 25 RLGIT)",
+          "Actos de hostilidad (25.14 y 25.15)"
+        ]
+      ]
+    },
+    {
+      "id": "2024-007",
+      "anio": 2024,
+      "numero": "007-2024",
+      "tipo": "Precedente",
+      "titulo": "Incorrecta tipificación cuando no se delimitó la desnaturalización de las modalidades formativas",
+      "criterio": "Criterio sobre la incorrecta tipificación, por el personal inspectivo, de la conducta imputada al empleador cuando no se ha delimitado previamente la desnaturalización de las modalidades formativas laborales (fund. 6.45, 6.46, 6.48 y 6.50).",
+      "fundamentos": "6.45, 6.46, 6.48 y 6.50",
+      "palabras": [
+        "modalidades formativas",
+        "prácticas",
+        "desnaturalización",
+        "tipificación",
+        "formativo"
+      ],
+      "temas": [
+        [
+          "Tipificación de infracciones (RLGIT)",
+          "Relaciones laborales (art. 25 RLGIT)",
+          "Modalidades formativas (desnaturalización)"
+        ]
+      ]
+    },
+    {
+      "id": "2024-008",
+      "anio": 2024,
+      "numero": "008-2024",
+      "tipo": "Precedente",
+      "titulo": "Riesgo grave e inminente para la seguridad y salud de los trabajadores (numeral 28.7)",
+      "criterio": "Criterio sobre el tipo infractor del numeral 28.7 del artículo 28 del RLGIT, referido al riesgo grave e inminente para la seguridad y salud de los trabajadores (fund. 6.5, 6.6, 6.13 y 6.14).",
+      "fundamentos": "6.5, 6.6, 6.13 y 6.14",
+      "palabras": [
+        "28.7",
+        "riesgo grave",
+        "riesgo inminente",
+        "seguridad y salud",
+        "SST"
+      ],
+      "temas": [
+        [
+          "Seguridad y salud en el trabajo",
+          "Tipificación en SST (arts. 27 y 28 RLGIT)",
+          "Riesgo grave e inminente (28.7)"
+        ]
+      ]
+    },
+    {
+      "id": "2024-009",
+      "anio": 2024,
+      "numero": "009-2024",
+      "tipo": "Precedente",
+      "titulo": "Tipo infractor del numeral 25.17 en el supuesto de discriminación",
+      "criterio": "Criterio sobre el tipo infractor del numeral 25.17 del artículo 25 del RLGIT, bajo el supuesto de discriminación (fund. 6.28 a 6.30, 6.33 y 6.34).",
+      "fundamentos": "6.28, 6.29, 6.30, 6.33 y 6.34",
+      "palabras": [
+        "25.17",
+        "discriminación",
+        "tipo infractor"
+      ],
+      "temas": [
+        [
+          "Tipificación de infracciones (RLGIT)",
+          "Relaciones laborales (art. 25 RLGIT)",
+          "Discriminación (25.17)"
+        ]
+      ]
+    },
+    {
+      "id": "2024-010",
+      "anio": 2024,
+      "numero": "010-2024",
+      "tipo": "Precedente",
+      "titulo": "Acuerdos desmaterializados en plataformas digitales para adelantar o fraccionar vacaciones",
+      "criterio": "Criterio referido a los acuerdos desmaterializados a través de plataformas digitales en el adelanto o fraccionamiento de vacaciones de los trabajadores (fund. 6.20, 6.23, 6.26 a 6.28 y 6.32 a 6.34).",
+      "fundamentos": "6.20, 6.23, 6.26, 6.27, 6.28, 6.32, 6.33 y 6.34",
+      "palabras": [
+        "vacaciones",
+        "plataforma digital",
+        "digital",
+        "fraccionamiento",
+        "adelanto de vacaciones",
+        "acuerdo"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Vacaciones",
+          "Acuerdos digitales de vacaciones"
+        ]
+      ]
+    },
+    {
+      "id": "2024-011",
+      "anio": 2024,
+      "numero": "011-2024",
+      "tipo": "Precedente",
+      "titulo": "Tipicidad y debida motivación para determinar responsabilidad administrativa",
+      "criterio": "Criterio referido al principio de tipicidad y a la debida motivación para la determinación de responsabilidad administrativa por la autoridad (fund. 6.11, 6.12, 6.14, 6.24 y 6.35).",
+      "fundamentos": "6.11, 6.12, 6.14, 6.24 y 6.35",
+      "palabras": [
+        "tipicidad",
+        "motivación",
+        "debida motivación",
+        "responsabilidad administrativa"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Principios del procedimiento",
+          "Tipicidad y debida motivación"
+        ]
+      ]
+    },
+    {
+      "id": "2024-012",
+      "anio": 2024,
+      "numero": "012-2024",
+      "tipo": "Precedente",
+      "titulo": "Delimitación del número de trabajadores afectados",
+      "criterio": "Criterio respecto a la delimitación del número de trabajadores afectados (fund. 6.5, 6.12, 6.13 y 6.15).",
+      "fundamentos": "6.5, 6.12, 6.13 y 6.15",
+      "palabras": [
+        "trabajadores afectados",
+        "número de trabajadores",
+        "cantidad de trabajadores",
+        "graduación"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Sanciones",
+          "Número de trabajadores afectados"
+        ]
+      ]
+    },
+    {
+      "id": "2024-013",
+      "anio": 2024,
+      "numero": "013-2024",
+      "tipo": "Precedente",
+      "titulo": "Deber de colaboración de los administrados con la actuación inspectiva",
+      "criterio": "Criterio respecto al deber de colaboración de los administrados con la actuación inspectiva (fund. 6.61, 6.69 y 6.70).",
+      "fundamentos": "6.61, 6.69 y 6.70",
+      "palabras": [
+        "colaboración",
+        "deber de colaboración",
+        "inspección",
+        "administrado"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Actuaciones inspectivas",
+          "Deber de colaboración del administrado"
+        ]
+      ]
+    },
+    {
+      "id": "2024-014",
+      "anio": 2024,
+      "numero": "014-2024",
+      "tipo": "Precedente",
+      "titulo": "Rasgos de laboralidad que evidencian el elemento de subordinación",
+      "criterio": "Criterio sobre los rasgos de laboralidad que evidencian el elemento de subordinación en una relación de carácter laboral (fund. 6.14 a 6.18 y 6.21 a 6.24).",
+      "fundamentos": "6.14, 6.15, 6.16, 6.17, 6.18, 6.21, 6.22, 6.23 y 6.24",
+      "palabras": [
+        "subordinación",
+        "laboralidad",
+        "relación laboral",
+        "desnaturalización",
+        "indicios",
+        "locación de servicios"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Existencia de relación laboral",
+          "Subordinación y laboralidad"
+        ]
+      ]
+    },
+    {
+      "id": "2024-015",
+      "anio": 2024,
+      "numero": "015-2024",
+      "tipo": "Precedente",
+      "titulo": "Acumulación de procedimientos administrativos sancionadores",
+      "criterio": "Criterio referido a la acumulación de procedimientos administrativos sancionadores (fund. 6.10, 6.11, 6.13, 6.16 y 6.17).",
+      "fundamentos": "6.10, 6.11, 6.13, 6.16 y 6.17",
+      "palabras": [
+        "acumulación",
+        "procedimientos",
+        "expedientes",
+        "acumular"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Concurso y continuidad de infracciones",
+          "Acumulación de procedimientos"
+        ]
+      ]
+    },
+    {
+      "id": "2024-016",
+      "anio": 2024,
+      "numero": "016-2024",
+      "tipo": "Precedente",
+      "titulo": "Buena fe procedimental y licencias de maternidad y lactancia",
+      "criterio": "Criterio sobre la vulneración del principio de buena fe procedimental y la prohibición de compensar o sustituir por el empleador las licencias de maternidad y/o lactancia materna (fund. 6.20 a 6.26).",
+      "fundamentos": "6.20, 6.21, 6.22, 6.23, 6.24, 6.25 y 6.26",
+      "palabras": [
+        "maternidad",
+        "lactancia",
+        "licencia",
+        "buena fe procedimental",
+        "compensar",
+        "sustituir"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Protección de trabajadoras",
+          "Licencias de maternidad y lactancia"
+        ],
+        [
+          "Procedimiento sancionador y principios",
+          "Principios del procedimiento",
+          "Buena fe procedimental"
+        ]
+      ]
+    },
+    {
+      "id": "2024-017",
+      "anio": 2024,
+      "numero": "017-2024",
+      "tipo": "Precedente",
+      "titulo": "Carga de la prueba de la administración en la calificación de actos de hostilidad",
+      "criterio": "Criterio referido a la carga de la prueba de la administración en la calificación de actos de hostilidad laboral (fund. 6.28 a 6.30 y 6.39).",
+      "fundamentos": "6.28, 6.29, 6.30 y 6.39",
+      "palabras": [
+        "carga de la prueba",
+        "hostilidad",
+        "prueba",
+        "administración"
+      ],
+      "temas": [
+        [
+          "Libertad sindical y negociación colectiva",
+          "Actos de hostilidad",
+          "Carga de la prueba"
+        ],
+        [
+          "Procedimiento sancionador y principios",
+          "Prueba",
+          "Carga de la prueba"
+        ]
+      ]
+    },
+    {
+      "id": "2024-018",
+      "anio": 2024,
+      "numero": "018-2024",
+      "tipo": "Precedente",
+      "titulo": "Medida de requerimiento y principio de razonabilidad",
+      "criterio": "Criterio referido a la medida de requerimiento y el principio de razonabilidad (fund. 6.14).",
+      "fundamentos": "6.14",
+      "palabras": [
+        "medida de requerimiento",
+        "razonabilidad",
+        "requerimiento"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Medida inspectiva de requerimiento",
+          "Razonabilidad de la medida"
+        ]
+      ]
+    },
+    {
+      "id": "2024-019",
+      "anio": 2024,
+      "numero": "019-2024",
+      "tipo": "Precedente",
+      "titulo": "Razonabilidad y supuestos de exceso de punición administrativa",
+      "criterio": "Criterio referido a la aplicación del principio de razonabilidad y a la identificación de los supuestos de exceso de punición administrativa (fund. 6.16 a 6.19).",
+      "fundamentos": "6.16, 6.17, 6.18 y 6.19",
+      "palabras": [
+        "razonabilidad",
+        "exceso de punición",
+        "sanción",
+        "multa"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Sanciones",
+          "Razonabilidad y exceso de punición"
+        ]
+      ]
+    },
+    {
+      "id": "2024-020",
+      "anio": 2024,
+      "numero": "020-2024",
+      "tipo": "Precedente",
+      "titulo": "Actos de hostilidad atribuidos a empresas usuarias",
+      "criterio": "Criterio referido a la determinación de actos de hostilidad atribuidos a empresas usuarias (fund. 6.25 a 6.27).",
+      "fundamentos": "6.25, 6.26 y 6.27",
+      "palabras": [
+        "empresa usuaria",
+        "hostilidad",
+        "tercerización",
+        "intermediación"
+      ],
+      "temas": [
+        [
+          "Libertad sindical y negociación colectiva",
+          "Actos de hostilidad",
+          "Empresas usuarias"
+        ]
+      ]
+    },
+    {
+      "id": "2024-021",
+      "anio": 2024,
+      "numero": "021-2024",
+      "tipo": "Precedente",
+      "titulo": "Ampliación de las materias inspeccionadas para verificar la desnaturalización",
+      "criterio": "Criterio referido al deber de los inspectores comisionados de evaluar la ampliación de materias inspeccionadas para verificar la posible desnaturalización de la relación laboral y el cumplimiento de derechos sociolaborales (fund. 6.18 y 6.19).",
+      "fundamentos": "6.18 y 6.19",
+      "palabras": [
+        "inspectores comisionados",
+        "ampliación de materias",
+        "desnaturalización",
+        "derechos sociolaborales"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Actuaciones inspectivas",
+          "Ampliación de materias inspeccionadas"
+        ]
+      ]
+    },
+    {
+      "id": "2024-022",
+      "anio": 2024,
+      "numero": "022-2024",
+      "tipo": "Precedente",
+      "titulo": "Tipificación del incumplimiento de facilidades para la actividad sindical",
+      "criterio": "Criterio respecto a la adecuada tipificación de la conducta infractora referida al incumplimiento de las disposiciones sobre el otorgamiento de facilidades para el ejercicio de la actividad sindical (fund. 6.20).",
+      "fundamentos": "6.20",
+      "palabras": [
+        "facilidades sindicales",
+        "actividad sindical",
+        "dirigentes",
+        "permisos",
+        "tipificación",
+        "libertad sindical"
+      ],
+      "temas": [
+        [
+          "Libertad sindical y negociación colectiva",
+          "Facilidades sindicales",
+          "Tipificación de la conducta"
+        ]
+      ]
+    },
+    {
+      "id": "2024-023",
+      "anio": 2024,
+      "numero": "023-2024",
+      "tipo": "Precedente",
+      "titulo": "Ampliación de plazos en los requerimientos de información",
+      "criterio": "Criterio referido a la ampliación de plazos en los requerimientos de información (fund. 6.19 a 6.28).",
+      "fundamentos": "6.19, 6.20, 6.21, 6.22, 6.23, 6.24, 6.25, 6.26, 6.27 y 6.28",
+      "palabras": [
+        "ampliación de plazo",
+        "plazo",
+        "requerimiento de información",
+        "prórroga"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Requerimientos de información",
+          "Ampliación de plazos"
+        ]
+      ]
+    },
+    {
+      "id": "2024-024",
+      "anio": 2024,
+      "numero": "024-2024",
+      "tipo": "Precedente",
+      "titulo": "Tiempo de refrigerio",
+      "criterio": "Criterio referido al tiempo de refrigerio (fund. 6.2 a 6.6, 6.17, 6.18 y 6.20 a 6.22).",
+      "fundamentos": "6.2, 6.3, 6.4, 6.5, 6.6, 6.17, 6.18, 6.20, 6.21 y 6.22",
+      "palabras": [
+        "refrigerio",
+        "descanso",
+        "jornada",
+        "tiempo de refrigerio"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Jornada y tiempo de trabajo",
+          "Refrigerio"
+        ]
+      ]
+    },
+    {
+      "id": "2024-025",
+      "anio": 2024,
+      "numero": "025-2024",
+      "tipo": "Precedente",
+      "titulo": "Seguridad social en pensiones",
+      "criterio": "Criterio referente a la seguridad social en pensiones (fund. 6.2, 6.3 y 6.7).",
+      "fundamentos": "6.2, 6.3 y 6.7",
+      "palabras": [
+        "pensiones",
+        "previsional",
+        "seguridad social",
+        "disyuntiva"
+      ],
+      "temas": [
+        [
+          "Relación de trabajo y derechos laborales",
+          "Seguridad social",
+          "Pensiones"
+        ]
+      ]
+    },
+    {
+      "id": "2024-026",
+      "anio": 2024,
+      "numero": "026-2024",
+      "tipo": "Precedente",
+      "titulo": "Afectación a la libertad sindical por extender beneficios a trabajadores no sindicalizados",
+      "criterio": "Criterio referido a la afectación a la libertad sindical por extender beneficios económicos a trabajadores no sindicalizados (fund. 6.17, 6.31 a 6.34, 6.36 y 6.42).",
+      "fundamentos": "6.17, 6.31, 6.32, 6.33, 6.34, 6.36 y 6.42",
+      "palabras": [
+        "no sindicalizados",
+        "beneficios",
+        "libertad sindical",
+        "extensión de beneficios",
+        "sindicato"
+      ],
+      "temas": [
+        [
+          "Libertad sindical y negociación colectiva",
+          "Negociación colectiva",
+          "Beneficios a trabajadores no sindicalizados"
+        ]
+      ]
+    },
+    {
+      "id": "2025-001",
+      "anio": 2025,
+      "numero": "001-2025",
+      "tipo": "Precedente",
+      "titulo": "Supuestos de tipificación del numeral 25.9 (derecho de huelga)",
+      "criterio": "Criterio referido a los supuestos de tipificación del numeral 25.9 del artículo 25 del RLGIT, vinculados a actos que afectarían el derecho de huelga (fund. 6.15 a 6.17).",
+      "fundamentos": "6.15, 6.16 y 6.17",
+      "palabras": [
+        "huelga",
+        "25.9",
+        "derecho de huelga",
+        "tipificación"
+      ],
+      "temas": [
+        [
+          "Tipificación de infracciones (RLGIT)",
+          "Relaciones laborales (art. 25 RLGIT)",
+          "Derecho de huelga (25.9)"
+        ]
+      ]
+    },
+    {
+      "id": "2025-002",
+      "anio": 2025,
+      "numero": "002-2025",
+      "tipo": "Precedente",
+      "titulo": "Numeral 48.1.C en accidente mortal con subcontratación",
+      "criterio": "Criterio sobre la aplicación del numeral 48.1.C del artículo 48.1 del RLGIT en casos de accidente mortal en una relación de subcontratación laboral (fund. 6.14, 6.15, 6.25 y 6.26).",
+      "fundamentos": "6.14, 6.15, 6.25 y 6.26",
+      "palabras": [
+        "accidente mortal",
+        "subcontratación",
+        "48.1",
+        "48.1.C",
+        "accidente de trabajo",
+        "tercerización"
+      ],
+      "temas": [
+        [
+          "Seguridad y salud en el trabajo",
+          "Accidentes de trabajo",
+          "Accidente mortal y subcontratación (48.1.C)"
+        ]
+      ]
+    },
+    {
+      "id": "2025-003",
+      "anio": 2025,
+      "numero": "003-2025",
+      "tipo": "Precedente",
+      "titulo": "Impulso de oficio y valoración de los medios de prueba",
+      "criterio": "Criterio referido a la aplicación del principio de impulso de oficio para determinar mayores elementos de juicio y la convicción respecto de los medios de prueba presentados (fund. 6.40 a 6.42 y 6.44).",
+      "fundamentos": "6.40, 6.41, 6.42 y 6.44",
+      "palabras": [
+        "impulso de oficio",
+        "prueba",
+        "medios probatorios",
+        "convicción",
+        "elementos de juicio"
+      ],
+      "temas": [
+        [
+          "Procedimiento sancionador y principios",
+          "Prueba",
+          "Impulso de oficio y convicción"
+        ]
+      ]
+    },
+    {
+      "id": "2025-004",
+      "anio": 2025,
+      "numero": "004-2025",
+      "tipo": "Precedente",
+      "titulo": "Desnaturalización como fundamento de la medida de requerimiento y del pago de beneficios",
+      "criterio": "Criterio referido a la determinación de la desnaturalización de la relación laboral como fundamento para emitir la medida inspectiva de requerimiento y exigir el pago de beneficios sociales u otros (fund. 6.32 y 6.33).",
+      "fundamentos": "6.32 y 6.33",
+      "palabras": [
+        "desnaturalización",
+        "beneficios sociales",
+        "requerimiento",
+        "pago",
+        "relación laboral"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Medida inspectiva de requerimiento",
+          "Desnaturalización y pago de beneficios"
+        ],
+        [
+          "Relación de trabajo y derechos laborales",
+          "Contratos de trabajo",
+          "Desnaturalización del contrato"
+        ]
+      ]
+    },
+    {
+      "id": "2025-005",
+      "anio": 2025,
+      "numero": "005-2025",
+      "tipo": "Precedente",
+      "titulo": "Conductas no punibles por demora en la respuesta a requerimientos de información",
+      "criterio": "Criterio relacionado con la configuración de conductas no punibles derivadas de la demora en la respuesta a requerimientos de información (fund. 6.25 a 6.30).",
+      "fundamentos": "6.25, 6.26, 6.27, 6.28, 6.29 y 6.30",
+      "palabras": [
+        "demora",
+        "requerimiento de información",
+        "no punible",
+        "respuesta",
+        "plazo"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Requerimientos de información",
+          "Demora: conducta no punible"
+        ]
+      ]
+    },
+    {
+      "id": "2025-006",
+      "anio": 2025,
+      "numero": "006-2025",
+      "tipo": "Precedente",
+      "titulo": "Nexo causal en incumplimientos formales detectados en la investigación de accidentes de trabajo",
+      "criterio": "Criterio sobre la acreditación del nexo causal en caso de detectarse incumplimientos de carácter formal, en el marco de la investigación de accidentes de trabajo (fund. 6.51 a 6.53).",
+      "fundamentos": "6.51, 6.52 y 6.53",
+      "palabras": [
+        "nexo causal",
+        "accidente de trabajo",
+        "incumplimiento formal",
+        "investigación de accidentes"
+      ],
+      "temas": [
+        [
+          "Seguridad y salud en el trabajo",
+          "Accidentes de trabajo",
+          "Nexo causal"
+        ]
+      ]
+    },
+    {
+      "id": "2025-007",
+      "anio": 2025,
+      "numero": "007-2025",
+      "tipo": "Precedente",
+      "titulo": "Deber de vigilancia de la salud, que comprende la salud mental",
+      "criterio": "Criterio referido al deber de vigilancia de la salud de los trabajadores, el cual también comprende la salud mental (fund. 6.19, 6.23 y 6.24).",
+      "fundamentos": "6.19, 6.23 y 6.24",
+      "palabras": [
+        "vigilancia de la salud",
+        "salud mental",
+        "vigilancia",
+        "seguridad y salud",
+        "trabajadores"
+      ],
+      "temas": [
+        [
+          "Seguridad y salud en el trabajo",
+          "Vigilancia de la salud",
+          "Salud mental"
+        ]
+      ]
+    },
+    {
+      "id": "2025-008",
+      "anio": 2025,
+      "numero": "008-2025",
+      "tipo": "Precedente",
+      "titulo": "Vacaciones truncas, diferenciación de actos de hostilidad, conjunto homogéneo de trabajadores y nexo causal",
+      "criterio": "Agrupa criterios sobre la infracción por impago de vacaciones truncas, la diferenciación entre los numerales 25.14 y 25.15 del RLGIT, la configuración de un conjunto homogéneo de trabajadores afectados y el quiebre del nexo causal en accidentes de trabajo (fund. 17, 18, 25, 27, 28, 46 a 50, 65 a 67 y 80 a 82).",
+      "fundamentos": "17, 18, 25, 27, 28, 46, 47, 48, 49, 50, 65, 66, 67, 80, 81 y 82",
+      "palabras": [
+        "vacaciones truncas",
+        "25.14",
+        "25.15",
+        "hostilidad",
+        "conjunto homogéneo",
+        "trabajadores afectados",
+        "nexo causal",
+        "accidente de trabajo",
+        "renuncia"
+      ],
+      "temas": [
+        [
+          "Tipificación de infracciones (RLGIT)",
+          "Relaciones laborales (art. 25 RLGIT)",
+          "Actos de hostilidad (25.14 y 25.15)"
+        ],
+        [
+          "Relación de trabajo y derechos laborales",
+          "Vacaciones",
+          "Vacaciones truncas"
+        ],
+        [
+          "Seguridad y salud en el trabajo",
+          "Accidentes de trabajo",
+          "Nexo causal"
+        ],
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Actuaciones inspectivas",
+          "Conjunto homogéneo de trabajadores afectados"
+        ]
+      ]
+    },
+    {
+      "id": "2025-009",
+      "anio": 2025,
+      "numero": "009-2025",
+      "tipo": "Precedente",
+      "titulo": "Mandato específico de la medida de requerimiento: legalidad y tipicidad",
+      "criterio": "Criterio referente a que el mandato específico de la medida inspectiva de requerimiento debe basarse en conductas expresamente señaladas como infracción, respetando los principios de legalidad y tipicidad (fund. 6.27 a 6.30).",
+      "fundamentos": "6.27, 6.28, 6.29 y 6.30",
+      "palabras": [
+        "mandato",
+        "legalidad",
+        "tipicidad",
+        "medida de requerimiento",
+        "requerimiento"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Medida inspectiva de requerimiento",
+          "Mandato específico (legalidad y tipicidad)"
+        ]
+      ]
+    },
+    {
+      "id": "2025-010",
+      "anio": 2025,
+      "numero": "010-2025",
+      "tipo": "Precedente",
+      "titulo": "Carácter unitario de la medida inspectiva de requerimiento",
+      "criterio": "Criterio referente al carácter unitario de la medida inspectiva de requerimiento (fund. 6.42 a 6.46).",
+      "fundamentos": "6.42, 6.43, 6.44, 6.45 y 6.46",
+      "palabras": [
+        "unitario",
+        "medida de requerimiento",
+        "requerimiento",
+        "unidad"
+      ],
+      "temas": [
+        [
+          "Función inspectiva y medidas inspectivas",
+          "Medida inspectiva de requerimiento",
+          "Carácter unitario"
+        ]
+      ]
+    }
+  ],
+  "notas_base": [
+    "Se analizaron 68 resoluciones (2021 a 2025). Se excluyó la Resolución de Sala Plena 011-2023, que es una fe de erratas de la 005-2023 y no declara precedente propio.",
+    "La Resolución de Sala Plena 008-2023 es un Acuerdo que declara criterios administrativos interpretativos e integradores. Se muestra aparte porque, según su propio texto, no son precedentes.",
+    "Los temas, criterios y palabras clave se elaboraron a partir de la sumilla, del punto resolutivo y de los fundamentos citados en cada resolución. Para el texto completo del criterio, consulte el PDF original."
+  ]
+}
